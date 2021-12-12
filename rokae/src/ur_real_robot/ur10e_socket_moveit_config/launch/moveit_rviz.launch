@@ -12,6 +12,4 @@
         args="$(arg command_args)" output="screen">
   </node>
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ur10e_moveit_config)/config/rviz.rviz"/>
-
 </launch>
